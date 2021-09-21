@@ -1,0 +1,16 @@
+#range--input{
+    margin-top: 20px;
+    border-radius: 8px;
+    height: 14px;
+    width: 100%;
+    outline: none;
+    /*-webkit-appearance: none;*/
+}
+
+/*input[type = 'range']::-webkit-slider-runnable-track{*/
+/*    width: 12px;*/
+/*    -webkit-appearance: none;*/
+/*    height: 12px;*/
+/*    background-color: rebeccapurple;*/
+/*    border-radius: 100%;*/
+/*}*/

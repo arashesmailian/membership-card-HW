@@ -1,0 +1,22 @@
+.btn {
+    font-size: 1.2rem;
+    padding: 0.9rem 2rem;
+    border: 0;
+    outline: 0;
+}
+
+.rounded-btn {
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+.primary-btn {
+
+    background-color: #673AB7;
+    color: white;
+}
+
+.secondary-btn {
+    background-color: #F5F5F5;
+    color: #673AB7;
+}

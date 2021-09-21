@@ -1,0 +1,11 @@
+.pricing-header {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.pricing--cycle {
+    margin-left: 100px;
+}
+
