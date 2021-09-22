@@ -2,15 +2,40 @@
 
     .pricing-plans {
         margin-top: 3vh;
-        height: 50vh;
-        width: 80vw;
-        /*display: grid;*/
-        /*grid-template: repeat(4, 24fr)/100fr;*/
-        /*grid-template-areas: 'price1' 'price2' 'popularPrice' 'price4';*/
-        /*grid-gap: 25px;*/
-        /*justify-content: center;*/
-        display: flex;
-        flex-direction: column;
+        height: 70vh;
+        width: 100vw;
+        display: grid;
+        grid-template: repeat(4, 24fr)/100fr;
+        grid-template-areas: 'price1' 'price2' 'price3' 'premium';
+        grid-gap: 25px;
+        justify-items: center;
+        /*align-content: center;*/
+        /*display: flex;*/
+        /*flex-direction: column;*/
+    }
+
+    .price1 {
+        grid-area: price1;
+        /*padding: 20px;*/
+        transition: 0.3s all;
+    }
+
+    .price2{
+        grid-area: price2;
+        /*padding: 20px;*/
+        transition: 0.3s all;
+    }
+
+    .price3{
+        grid-area: price3;
+        /*padding: 20px;*/
+        transition: 0.3s all;
+    }
+
+    .premium{
+        grid-area: premium;
+        /*padding: 20px;*/
+        transition: 0.3s all;
     }
 
     .pricing-header {
