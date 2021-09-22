@@ -6,6 +6,7 @@ body {
 }
 
 .pricing-container {
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

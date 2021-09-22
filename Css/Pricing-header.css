@@ -1,11 +1,23 @@
 .pricing-header {
     display: flex;
     flex-direction: column;
+    width: 65%;
     /*justify-content: center;*/
     /*align-items: center;*/
 }
 
 .pricing--cycle {
-    margin-left: 100px;
+    margin-left: 36.5vw;
 }
+
+.pricing-header h1{
+    display: inline;
+    color: #12005e;
+}
+
+.pricing-header p{
+    margin-top: 0;
+    color: dimgray;
+}
+
 

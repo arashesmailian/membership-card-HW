@@ -1,0 +1,65 @@
+.plans--cards{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    transition: 0.3s all;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+
+ion-icon{
+    margin-right: .7vw;
+    color: grey;
+}
+
+.actual--price{
+    font-size: 30px;
+    color: #12005e;
+    font-weight: bold;
+}
+
+.month--style{
+    font-size: 10px;
+    color: dimgray;
+}
+
+.plans--cards p:first-of-type{
+    font-size: large;
+    margin-bottom: 0
+}
+
+.plans--cards p:last-of-type{
+    font-size: medium;
+    color: dimgrey;
+}
+
+.plans--cards div{
+    margin-top: 4vh;
+}
+
+.plans--cards div:last-of-type{
+    align-self: center;
+}
+
+.premium--card{
+    background-color: #7c01e8;
+    color: #ffd2c5;
+}
+
+.premium--card ion-icon{
+    color: #ffd2c5;
+}
+
+.premium--card p:last-of-type{
+    color: #ffd2c5;
+}
+
+.premium--card span:first-of-type{
+    color: white;
+}
+
+.premium--card span:last-of-type{
+    color: white;
+}

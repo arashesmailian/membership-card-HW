@@ -6,7 +6,8 @@
 }
 
 .rounded-btn {
-    border-radius: 30px;
+    /*border-radius: 30px;*/
+    border-radius: 30vh;
     margin-top: 5px;
 }
 
@@ -19,4 +20,27 @@
 .secondary-btn {
     background-color: #F5F5F5;
     color: #673AB7;
+}
+
+.cards--button{
+    padding: 1vw 5vw;
+    font-weight: bold;
+    outline: 0;
+    border-radius: 1vh;
+}
+
+.cardsButton{
+    color: #7c01e8;
+    border: 2px solid #7c01e8;
+}
+
+
+.cardsButton:hover{
+    background-color: #673AB7;
+    color: #ffd2c5;
+}
+
+.premium--button{
+    color:#673AB7;
+    background-color: #ffd2c5;
 }

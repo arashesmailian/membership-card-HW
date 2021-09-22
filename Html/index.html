@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <title>Title</title>
 
-    <link rel="stylesheet" href="../Css/Body.css">
-    <link rel="stylesheet" href="../Css/Pricing-header.css">
-    <link rel="stylesheet" href="../Css/range-input.css">
-    <link rel="stylesheet" href="../Css/buttons.css">
-    <link rel="stylesheet" href="../Css/Pricing-plans.css">
+    <link rel="stylesheet" href="../Css/global.css">
+
 </head>
 <body>
 
 <div class="pricing-container">
     <div class="pricing-header">
         <div>
-            <h1 style="display:inline; color: #12005e">
+            <h1>
                 Simple, transparent pricing
             </h1>
             <span class="pricing--cycle">
@@ -23,39 +20,62 @@
                 <button class="btn rounded-btn secondary-btn">Yearly</button>
             </span>
         </div>
-        <p style="margin-top: 0; color: grey">No contracts. No surprise fees.</p>
+        <p>No contracts. No surprise fees.</p>
         <input id="range--input" type="range" min="10" max="1000" step="50">
     </div>
 
     <div class="pricing-plans">
         <div class="plans--cards">
-            <p style="font-size: large">base</p>
-            <div><span><h1>$19</h1></span><span><p>/month</p></span></div>
-            <p style="font-size: medium">for most businesses that want to optimze web queries</p>
-
+            <p>Intro</p>
+            <div><span class="actual--price">$19</span><span class="month--style"> /Month</span></div>
+            <p>for most businesses that want to optimze web queries</p>
+            <div><ion-icon name="checkmark-circle"></ion-icon>Own Analytics platform</div>
+            <div><ion-icon name="checkmark-circle"></ion-icon>All Limited Links</div>
+            <div><ion-icon name="checkmark-circle"></ion-icon>Optimize hashtags</div>
+            <div><ion-icon name="checkmark-circle"></ion-icon>Unlimited users</div>
+            <div><ion-icon name="checkmark-circle"></ion-icon>chat support</div>
+            <div><button class="cards--button cardsButton">Choose Plan</button></div>
         </div>
         <div class="plans--cards">
-            <p style="font-size: large">base</p>
-            <div><span style="font-size: xx-large; font-weight: bold">19</span><span>/month</span></div>
-            <p style="font-size: medium">for most businesses that want to optimze web queries</p>
-
+            <p>Base</p>
+            <div><span class="actual--price">$19</span><span class="month--style"> /Month</span></div>
+            <p>for most businesses that want to optimze web queries</p>
+            <div><ion-icon name="checkmark-circle"></ion-icon>Own Analytics platform</div>
+            <div><ion-icon name="checkmark-circle"></ion-icon>All Limited Links</div>
+            <div><ion-icon name="checkmark-circle"></ion-icon>Optimize hashtags</div>
+            <div><ion-icon name="checkmark-circle"></ion-icon>Unlimited users</div>
+            <div><ion-icon name="checkmark-circle"></ion-icon>chat support</div>
+            <div><button class="cards--button cardsButton">Choose Plan</button></div>
         </div>
         <div class="plans--cards">
-            <p style="font-size: large">base</p>
-            <div><span><h1>$19</h1></span><span><p>/month</p></span></div>
-            <p style="font-size: medium">for most businesses that want to optimze web queries</p>
+            <p>Popular</p>
+            <div><span class="actual--price">$19</span><span class="month--style"> /Month</span></div>
+            <p>for most businesses that want to optimze web queries</p>
+            <div><ion-icon name="checkmark-circle"></ion-icon>Own Analytics platform</div>
+            <div><ion-icon name="checkmark-circle"></ion-icon>All Limited Links</div>
+            <div><ion-icon name="checkmark-circle"></ion-icon>Optimize hashtags</div>
+            <div><ion-icon name="checkmark-circle"></ion-icon>Unlimited users</div>
+            <div><ion-icon name="checkmark-circle"></ion-icon>chat support</div>
+            <div><button class="cards--button cardsButton">Choose Plan</button></div>
 
         </div>
-        <div class="plans--cards">
-            <p style="font-size: large">base</p>
-            <div><span><h1>$19</h1></span><span><p>/month</p></span></div>
-            <p style="font-size: medium">for most businesses that want to optimze web queries</p>
-
+        <div class="plans--cards premium--card">
+            <p>Enterprise</p>
+            <div><span class="actual--price">$19</span><span class="month--style"> /Month</span></div>
+            <p>for most businesses that want to optimze web queries</p>
+            <div><ion-icon name="checkmark-circle"></ion-icon>Own Analytics platform</div>
+            <div><ion-icon name="checkmark-circle"></ion-icon>All Limited Links</div>
+            <div><ion-icon name="checkmark-circle"></ion-icon>Optimize hashtags</div>
+            <div><ion-icon name="checkmark-circle"></ion-icon>Unlimited users</div>
+            <div><ion-icon name="checkmark-circle"></ion-icon>chat support</div>
+            <div><button class="cards--button cardsButton premium--button">Choose Plan</button></div>
         </div>
     </div>
 </div>
 
 
-<!--<script src="../Js/range-input.js"></script>-->
+<script src="../Js/range-input.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
